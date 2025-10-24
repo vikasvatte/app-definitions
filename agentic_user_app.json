@@ -1,0 +1,34 @@
+{
+    "ExternalId": "0c372494-c931-4ecd-871a-ec23fc7799ae",
+    "ManifestVersion": "devPreview",
+    "Version": "2.2.1",
+    "Name": "Sales Agent 3P New",
+    "ShortDescription": "Sales Agent",
+    "LongDescription": "Sales Agent Digital Worker (SADW) is a persistent, named digital teammate in your tenant that executes sales jobs—like lead qualification/outreach, quote preparation, and pricing management—via familiar channels such as Teams and Outlook. It uses role-specific sub-agents and a cognitive routing layer to send each request to the right JTBD, so a manager can engage one identity (e.g., Bill-SA-DW) that handles end-to-end tasks like generating and returning quotes.",
+    "SmallImageUrl": "https://storage.asm.skype.net/v1/objects/0-cusint-d3-ca6d25ac4d6b4c371daff6f888a3fddb/views/imgpsh_fullsize",
+    "LargeImageUrl": "https://storage.asm.skype.net/v1/objects/0-cusint-d3-221b3a256d748758baf7d3fc46aaaa76/views/imgpsh_fullsize",
+    "AccentColor": "#4464ee",
+    "DeveloperName": "Versha Dhankar",
+    "DeveloperUrl": "https://sadw.wus-ia001.gateway.test.island.powerapps.com/api/a365/webhook/messages",
+    "PrivacyUrl": "https://microsoft.com",
+    "TermsOfUseUrl": "https://microsoft.com",
+    "TenantId": "b68aa089-5d3c-48a0-af01-3a0ca6c89f14",
+    "Activities": {
+        "activityTypes": [
+            {
+                "Type": "systemDefault",
+                "Description": "Other activities",
+                "TemplateText": "{systemDefaultText}"
+            }
+        ]
+    },
+    "agenticIdentityType": "Unknown",
+    "Id": "658d09a8-536c-4107-89e1-f6dc24d6b4f7",
+    "agenticUserTemplates": [
+        {
+            "id": "12345678-b43a-4156-a072-156dcd2df0e6",
+            "agentIdentityBlueprintId": "12345678-1234-4156-a072-156dcd2df0e6",
+            "hireState": "Allowed"
+        }
+    ]
+}
