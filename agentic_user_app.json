@@ -1,5 +1,5 @@
 {
-    "ExternalId": "0c372494-c931-4ecd-871a-ec23fc7799ae",
+    "ExternalId": "d0ae1774-e40d-47f5-aae8-7945681d5b92",
     "ManifestVersion": "devPreview",
     "Version": "2.2.1",
     "Name": "Sales Agent 3P New",
@@ -23,7 +23,7 @@
         ]
     },
     "agenticIdentityType": "Unknown",
-    "Id": "658d09a8-536c-4107-89e1-f6dc24d6b4f7",
+    "Id": "d0ae1774-e40d-47f5-aae8-7945681d5b92",
     "agenticUserTemplates": [
         {
             "id": "12345678-b43a-4156-a072-156dcd2df0e6",
