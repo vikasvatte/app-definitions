@@ -1,34 +1,241 @@
 {
-    "ExternalId": "d0ae1774-e40d-47f5-aae8-7945681d5b92",
-    "ManifestVersion": "devPreview",
-    "Version": "2.2.1",
-    "Name": "Sales Agent 3P New",
-    "ShortDescription": "Sales Agent",
-    "LongDescription": "Sales Agent Digital Worker (SADW) is a persistent, named digital teammate in your tenant that executes sales jobs—like lead qualification/outreach, quote preparation, and pricing management—via familiar channels such as Teams and Outlook. It uses role-specific sub-agents and a cognitive routing layer to send each request to the right JTBD, so a manager can engage one identity (e.g., Bill-SA-DW) that handles end-to-end tasks like generating and returning quotes.",
-    "SmallImageUrl": "https://storage.asm.skype.net/v1/objects/0-cusint-d3-ca6d25ac4d6b4c371daff6f888a3fddb/views/imgpsh_fullsize",
-    "LargeImageUrl": "https://storage.asm.skype.net/v1/objects/0-cusint-d3-221b3a256d748758baf7d3fc46aaaa76/views/imgpsh_fullsize",
-    "AccentColor": "#4464ee",
-    "DeveloperName": "Versha Dhankar",
-    "DeveloperUrl": "https://sadw.wus-ia001.gateway.test.island.powerapps.com/api/a365/webhook/messages",
-    "PrivacyUrl": "https://microsoft.com",
-    "TermsOfUseUrl": "https://microsoft.com",
-    "TenantId": "b68aa089-5d3c-48a0-af01-3a0ca6c89f14",
-    "Activities": {
-        "activityTypes": [
+    "value": {
+        "appDefinitions": [
             {
-                "Type": "systemDefault",
-                "Description": "Other activities",
-                "TemplateText": "{systemDefaultText}"
+                "ExternalId": "0c372494-c931-4ecd-871a-ec23fc7799ae",
+                "ManifestVersion": "devPreview",
+                "Version": "2.2.1",
+                "Name": "Sales Agent 3P New",
+                "ShortDescription": "Sales Agent",
+                "LongDescription": "Sales Agent Digital Worker (SADW) is a persistent, named digital teammate in your tenant that executes sales jobs—like lead qualification/outreach, quote preparation, and pricing management—via familiar channels such as Teams and Outlook. It uses role-specific sub-agents and a cognitive routing layer to send each request to the right JTBD, so a manager can engage one identity (e.g., Bill-SA-DW) that handles end-to-end tasks like generating and returning quotes.",
+                "SmallImageUrl": "https://storage.asm.skype.net/v1/objects/0-cusint-d3-ca6d25ac4d6b4c371daff6f888a3fddb/views/imgpsh_fullsize",
+                "LargeImageUrl": "https://storage.asm.skype.net/v1/objects/0-cusint-d3-221b3a256d748758baf7d3fc46aaaa76/views/imgpsh_fullsize",
+                "AccentColor": "#4464ee",
+                "DeveloperName": "Versha Dhankar",
+                "DeveloperUrl": "https://sadw.wus-ia001.gateway.test.island.powerapps.com/api/a365/webhook/messages",
+                "PrivacyUrl": "https://microsoft.com",
+                "TermsOfUseUrl": "https://microsoft.com",
+                "TenantId": "b68aa089-5d3c-48a0-af01-3a0ca6c89f14",
+                "Activities": {
+                    "activityTypes": [
+                        {
+                            "Type": "systemDefault",
+                            "Description": "Other activities",
+                            "TemplateText": "{systemDefaultText}"
+                        }
+                    ]
+                },
+                "agenticIdentityType": "Unknown",
+                "Id": "658d09a8-536c-4107-89e1-f6dc24d6b4f7",
+                "agenticUserTemplates": [
+                    {
+                        "id": "12345678-b43a-4156-a072-156dcd2df0e6",
+                        "agentIdentityBlueprintId": "12345678-1234-4156-a072-156dcd2df0e6",
+                        "hireState": "Allowed"
+                    }
+                ]
+            },
+            {
+                "manifestVersion": "1.18",
+                "agenticUserTemplates": [
+                    {
+                        "id": "12345678-b43a-4156-a072-156dcd2df0e6",
+                        "agentIdentityBlueprintId": "12345678-1234-4156-a072-156dcd2df0e6",
+                        "hireState": "Allowed"
+                    }
+                ],
+                "id": "10aea93d-20cf-44c2-b4a5-284c5ef2e6a5",
+                "version": "721.0.3sh",
+                "name": "Adobe Acrobat",
+                "accentColor": "#B30B00",
+                "authorization": {
+                    "permissions": {
+                        "resourceSpecific": [
+                            {
+                                "name": "MailboxItem.ReadWrite.User",
+                                "type": "Delegated"
+                            }
+                        ]
+                    }
+                },
+                "bots": [
+                    {
+                        "commandLists": [
+                            {
+                                "commands": [
+                                    {
+                                        "description": "Stop receiving Adobe Acrobat notifications",
+                                        "title": "Notifications Off"
+                                    },
+                                    {
+                                        "description": "Start receiving Adobe Acrobat notifications",
+                                        "title": "Notifications On"
+                                    },
+                                    {
+                                        "description": "To sign in to your Adobe Acrobat account",
+                                        "title": "Sign In"
+                                    },
+                                    {
+                                        "description": "To sign out of your Adobe Acrobat account",
+                                        "title": "Sign Out"
+                                    },
+                                    {
+                                        "description": "To give us feedback on Adobe Acrobat",
+                                        "title": "Feedback"
+                                    },
+                                    {
+                                        "description": "To see available commands",
+                                        "title": "Help"
+                                    }
+                                ],
+                                "scopes": [
+                                    "personal"
+                                ]
+                            },
+                            {
+                                "commands": [
+                                    {
+                                        "description": "To see available commands",
+                                        "title": "Help"
+                                    }
+                                ],
+                                "scopes": [
+                                    "groupChat"
+                                ]
+                            },
+                            {
+                                "commands": [
+                                    {
+                                        "description": "To see available commands",
+                                        "title": "Help"
+                                    }
+                                ],
+                                "scopes": [
+                                    "team"
+                                ]
+                            }
+                        ],
+                        "id": "55a07ff9-ec5f-45e0-b704-733f617fe669",
+                        "isNotificationOnly": false,
+                        "scopes": [
+                            "personal",
+                            "groupchat",
+                            "team"
+                        ],
+                        "supportsCalling": false,
+                        "supportsFiles": false,
+                        "supportsVideo": false
+                    }
+                ],
+                "categories": [
+                    "Communication",
+                    "Productivity",
+                    "Utilities"
+                ],
+                "developerName": "Adobe",
+                "developerUrl": "https://www.adobe.com/",
+                "galleryTabs": [
+                    {
+                        "canUpdateConfiguration": false,
+                        "configurationUrl": "https://documentcloud.adobe.com/msteamsintegration/main.html#/configure?pageContext=configurableTab",
+                        "scopes": [
+                            "team"
+                        ]
+                    }
+                ],
+                "industries": [
+                    "HealthCareAndLifeSciences",
+                    "ProfessionalServices"
+                ],
+                "inputExtensions": [
+                    {
+                        "botId": "55a07ff9-ec5f-45e0-b704-733f617fe669",
+                        "canUpdateConfiguration": false,
+                        "commands": [
+                            {
+                                "context": [
+                                    "compose",
+                                    "commandBox",
+                                    "message"
+                                ],
+                                "description": "Collaborate on PDFs with your team",
+                                "fetchTask": true,
+                                "id": "collaborateOnPDF",
+                                "initialRun": false,
+                                "title": "Collaborate on PDF",
+                                "type": "action"
+                            }
+                        ],
+                        "fetchCommands": false,
+                        "messageHandlers": [],
+                        "scopes": [
+                            "team",
+                            "personal"
+                        ]
+                    }
+                ],
+                "isAppIOSAcquirable": true,
+                "isFullScreen": false,
+                "keywords": [
+                    "Acrobat",
+                    "PDF",
+                    "Review"
+                ],
+                "languageTag": "en-us",
+                "largeImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5_largeImage.png?v=721.0.3",
+                "longDescription": "With Adobe Acrobat, you can now increase productivity with generative AI and collaborate on and make changes to your PDFs right from within Microsoft Teams, Outlook and Microsoft 365 (Office).\n For instance, the PDFs from your Microsoft Teams Chats, OneDrive etc. are now centrally available to open directly within the Teams environment to analyze and surface insights, and  make changes like organizing pages, compressing, converting to other formats, protecting, and more! You can collaborate with others in your Teams Channel and collect feedback in a single PDF so reviewers can see each other’s comments and it is easier to reconcile feedback and get things done. Notifications keep you informed when others take action on shared documents.\n Tenant admins can set Adobe Acrobat app as the default PDF viewer in Teams by setting a policy on Teams Admin Center to install the app on user's client. Instructions on how to do this are available [here](https://www.adobe.com/go/acroteams_fh_help).\n**Free-to-use features:**\n- High quality viewing — Acrobat lets you open high-fidelity PDFs directly within Microsoft Teams, Outlook and Microsoft 365 (Office), for a satisfying and seamless work experience.\n- Streamline PDF review - Collect channel members’ feedback in a single PDF directly in Teams instead of gathering and reconciling feedback via multiple attachments. This feature requires users to have an Adobe account.*\n- Keep reviewers informed — Reviewers get notified when others reply to their comments. \n- Secure collaboration — Collaborate securely with trusted members and retain the ability to store document versions in Microsoft SharePoint or OneDrive.**\n**Premium features (require Acrobat subscription):**\n- If you do not have an existing Acrobat subscription, subscribe now to unlock these features right within Acrobat in Teams, Outlook and Microsoft 365 (Office).\n - Convert PDFs to Word, Excel, and PowerPoint, or Image\n - Combine multiple documents and file types into one PDF file\n - Delete, rotate, extract, insert or reorder pages of a PDF\n - Reduce the size of your PDF for easier sharing\n - Add a password to protect your PDF.\n**Acrobat AI Assistant features which requires [AI Assistant add-on]( https://www.adobe.com/acrobat/generative-ai-pdf.html#compare-plans):**\n AI Assistant for Adobe Acrobat is a conversational feature that lets you interact with your documents to get quick answers to questions based on your PDF   content in a comprehensive and informative way.\n - Insights you can trust – AI Assistant looks only at the documents you tell it to. And by generating verifiable insights with attributions back to the source, you can be assured you’re accessing credible information.\n - Writing made easy – Empower your team to rapidly create high-quality professional content for emails, blogs, presentations, research summaries, and more. Use the responses AI Assistant generated from your documents to get the write-up you need and produce your deliverables in less time.\n - Enhanced meeting transcript support – Whether you are leading a meeting, participating, or missed it altogether, enhanced meeting transcript support will help you stay in the know and turn meeting insights into takeaway actions. Automatically generate meeting summaries from transcripts to understand main topics, key points, and action items.\n** Commenting currently is not supported on the mobile experience.\n** Learn more about security for Acrobat [here](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/doc-cloud/acrobat-dc-security-overview-ue.pdf).\n** AI Assistant is currently available in English only.\n The app utilizes the 'onMessageAttachmentsChanged' launch event to improve email collaboration. Specifically, it detects when a PDF is attached to an email and prompts users to convert the PDF into a shareable Adobe Document Cloud public link.",
+                "officeAssetId": "WA200002564",
+                "permissions": [
+                    "Identity",
+                    "MessageTeamMembers"
+                ],
+                "privacyUrl": "https://www.adobe.com/privacy/policy.html",
+                "publisherDocsUrl": "https://helpx.adobe.com/in/document-cloud/help/microsoft-teams.html",
+                "screenshotUrls": [
+                    "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/1.png?v=3.0.3",
+                    "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/2.png?v=3.0.3",
+                    "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/3.png?v=3.0.3",
+                    "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/4.png?v=3.0.3",
+                    "https://statics.teams.cdn.office.net/evergreen-assets/ThirdPartyApps/screenshots/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/5.png?v=3.0.3"
+                ],
+                "securityComplianceInfo": {
+                    "mcasId": "21517",
+                    "status": "m365Certified"
+                },
+                "shortDescription": "Gain insights, edit, convert, and collaborate on PDFs in Microsoft Teams",
+                "showLoadingIndicator": false,
+                "smallImageUrl": "https://statics.teams.cdn.office.net/app-assets/ring0/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5/10aea93d-20cf-44c2-b4a5-284c5ef2e6a5_smallImage.png?v=721.0.3",
+                "staticTabs": [
+                    {
+                        "contentUrl": "https://documentcloud.adobe.com/msteamsintegration/main.html#/?pageContext=homeTab",
+                        "entityId": "documentTab",
+                        "name": "App",
+                        "scopes": [
+                            "personal"
+                        ]
+                    },
+                    {
+                        "entityId": "conversations",
+                        "scopes": [
+                            "personal"
+                        ]
+                    }
+                ],
+                "supportsChannelFeatures": "tier1",
+                "termsOfUseUrl": "https://www.adobe.com/legal/terms.html",
+                "validDomains": [
+                    "documentcloud.adobe.com",
+                    "*.*.*.*.adobe.net"
+                ],
+                "videoUrl": "https://youtu.be/Ap1UezdL06Q",
+                "webApplicationInfo": {
+                    "id": "ecff17cf-5629-49ba-a629-7f575496aeac",
+                    "resource": "https://documentcloud.adobe.com/ecff17cf-5629-49ba-a629-7f575496aeac"
+                },
+                "supportedLanguages": [
+                    "en-us"
+                ]
             }
         ]
-    },
-    "agenticIdentityType": "Unknown",
-    "Id": "d0ae1774-e40d-47f5-aae8-7945681d5b92",
-    "agenticUserTemplates": [
-        {
-            "id": "12345678-b43a-4156-a072-156dcd2df0e6",
-            "agentIdentityBlueprintId": "12345678-1234-4156-a072-156dcd2df0e6",
-            "hireState": "Allowed"
-        }
-    ]
+    }
 }
