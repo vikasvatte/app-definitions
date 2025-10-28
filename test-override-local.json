@@ -1,0 +1,104 @@
+{
+    "value": {
+        "appDefinitions": [
+            {
+                "manifestVersion": "1.10",
+                "id": "00001016-de05-492e-9106-4828fc8a8687",
+                "version": "5.0.2",
+                "name": "Power Automate Actions",
+                "accentColor": "#002966",
+                "agenticUserTemplates": [
+                    {
+                        "id": "12345678-b43a-4156-a072-156dcd2df0e6",
+                        "agentIdentityBlueprintId": "12345678-1234-4156-a072-156dcd2df0e6",
+                        "hireState": "Allowed"
+                    }
+                ],
+                "activities": {
+                    "activityTypes": [
+                        {
+                            "description": "Flow message notifications",
+                            "templateText": "{actor} message notification",
+                            "type": "messageNotify"
+                        }
+                    ]
+                },
+                "categories": [
+                    "WorkflowAndBusinessManagement",
+                    "Productivity",
+                    "DeveloperTools",
+                    "FilesAndDocuments",
+                    "Utilities",
+                    "Microsoft"
+                ],
+                "developerName": "Microsoft Corporation",
+                "developerUrl": "https://flow.microsoft.com",
+                "inputExtensions": [
+                    {
+                        "botId": "aa6435a2-0ef1-44be-a805-a433eeaa2aa4",
+                        "commands": [
+                            {
+                                "context": [
+                                    "message"
+                                ],
+                                "fetchTask": true,
+                                "id": "ListTemplates",
+                                "initialRun": false,
+                                "taskInfo": {
+                                    "height": "460",
+                                    "width": "800"
+                                },
+                                "title": "Create new action",
+                                "type": "action"
+                            }
+                        ],
+                        "fetchCommands": true,
+                        "scopes": [
+                            "team",
+                            "personal"
+                        ]
+                    }
+                ],
+                "isAppIOSAcquirable": true,
+                "isFullTrust": true,
+                "isTeamsOwned": true,
+                "isTenantConfigurable": true,
+                "largeImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/flow_largeimage.png",
+                "longDescription": "Automate time-consuming and repetitive tasks by integrating your favorite apps and services with Microsoft Power Automate.",
+                "permissions": [
+                    "Identity",
+                    "MessageTeamMembers"
+                ],
+                "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+                "publisherType": "SecondParty",
+                "restrictedTenantTypes": [
+                    "Freemium"
+                ],
+                "screenshotUrls": [
+                    "https://statics.teams.cdn.office.net/evergreen-assets/apps/screenshots/c3a1996d-db0f-4857-a6ea-7aabf0266b00/1.png",
+                    "https://statics.teams.cdn.office.net/evergreen-assets/apps/screenshots/c3a1996d-db0f-4857-a6ea-7aabf0266b00/2.png"
+                ],
+                "shortDescription": "Be more productive with Microsoft Flow",
+                "smallImageUrl": "https://statics.teams.cdn.office.net/evergreen-assets/apps/flow_smallimage.png",
+                "termsOfUseUrl": "https://go.microsoft.com/fwlink/?linkid=2131104",
+                "validDomains": [
+                    "flow.microsoft.com",
+                    "preview.flow.microsoft.com",
+                    "*.azure-apim.net",
+                    "*.consent.azure-apim.net",
+                    "make.powerautomate.com",
+                    "make.preview.powerautomate.com",
+                    "make.preprod.powerautomate.com",
+                    "make.gov.powerautomate.us",
+                    "make.high.powerautomate.us",
+                    "make.powerautomate.appsplatform.us"
+                ],
+                "videoUrl": "https://www.youtube.com/watch?v=RAPJblX250o",
+                "webApplicationInfo": {
+                    "id": "7df0a125-d3be-4c96-aa54-591f83ff541c",
+                    "resource": "https://service.flow.microsoft.com/"
+                }
+            }
+        ]
+    }
+}
