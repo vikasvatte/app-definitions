@@ -10,6 +10,7 @@
                 "agenticUserTemplates": [
                     {
                         "id": "12345678-b43a-4156-a072-156dcd2df0e6",
+                        "agentIdentityBlueprintId": "12345678-b43a-4156-a072-156dcd2df0e6",
                         "hireState": "Allowed"
                     }
                 ],
